@@ -14,13 +14,21 @@
 		25C62A271976E91A008A72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A261976E91A008A72D8 /* main.m */; };
 		25C62A2B1976E91A008A72D8 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A2A1976E91A008A72D8 /* XYZAppDelegate.m */; };
 		25C62A2E1976E91A008A72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C62A2C1976E91A008A72D8 /* Main.storyboard */; };
-		25C62A311976E91A008A72D8 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A301976E91A008A72D8 /* XYZViewController.m */; };
 		25C62A331976E91A008A72D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C62A321976E91A008A72D8 /* Images.xcassets */; };
 		25C62A3A1976E91A008A72D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C62A391976E91A008A72D8 /* XCTest.framework */; };
 		25C62A3B1976E91A008A72D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C62A1A1976E91A008A72D8 /* Foundation.framework */; };
 		25C62A3C1976E91A008A72D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C62A1E1976E91A008A72D8 /* UIKit.framework */; };
 		25C62A441976E91A008A72D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C62A421976E91A008A72D8 /* InfoPlist.strings */; };
 		25C62A461976E91A008A72D8 /* ObjectiveTrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A451976E91A008A72D8 /* ObjectiveTrainerTests.m */; };
+		25C62A5B1976F79E008A72D8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A5A1976F79E008A72D8 /* SWRevealViewController.m */; };
+		25C62A5E1976FAF1008A72D8 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A5D1976FAF1008A72D8 /* QuestionViewController.m */; };
+		25C62A611976FB7E008A72D8 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A601976FB7E008A72D8 /* QuestionModel.m */; };
+		25C62A641976FBD6008A72D8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A631976FBD6008A72D8 /* MenuViewController.m */; };
+		25C62A671976FBF9008A72D8 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A661976FBF9008A72D8 /* MenuModel.m */; };
+		25C62A6A1976FC67008A72D8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A691976FC67008A72D8 /* AboutViewController.m */; };
+		25C62A6D1976FCBA008A72D8 /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A6C1976FCBA008A72D8 /* RemoveAdsViewController.m */; };
+		25C62A701976FCE7008A72D8 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A6F1976FCE7008A72D8 /* StatsViewController.m */; };
+		25C62A731976FD1F008A72D8 /* StatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C62A721976FD1F008A72D8 /* StatsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,30 @@
 		25C62A291976E91A008A72D8 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
 		25C62A2A1976E91A008A72D8 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
 		25C62A2D1976E91A008A72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25C62A2F1976E91A008A72D8 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
-		25C62A301976E91A008A72D8 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 		25C62A321976E91A008A72D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		25C62A381976E91A008A72D8 /* ObjectiveTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C62A391976E91A008A72D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		25C62A411976E91A008A72D8 /* ObjectiveTrainerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveTrainerTests-Info.plist"; sourceTree = "<group>"; };
 		25C62A431976E91A008A72D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25C62A451976E91A008A72D8 /* ObjectiveTrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveTrainerTests.m; sourceTree = "<group>"; };
+		25C62A591976F79E008A72D8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		25C62A5A1976F79E008A72D8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		25C62A5C1976FAF1008A72D8 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionViewController.h; path = Questions/QuestionViewController.h; sourceTree = "<group>"; };
+		25C62A5D1976FAF1008A72D8 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionViewController.m; path = Questions/QuestionViewController.m; sourceTree = "<group>"; };
+		25C62A5F1976FB7E008A72D8 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionModel.h; path = Questions/QuestionModel.h; sourceTree = "<group>"; };
+		25C62A601976FB7E008A72D8 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionModel.m; path = Questions/QuestionModel.m; sourceTree = "<group>"; };
+		25C62A621976FBD6008A72D8 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
+		25C62A631976FBD6008A72D8 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		25C62A651976FBF9008A72D8 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuModel.h; path = Menu/MenuModel.h; sourceTree = "<group>"; };
+		25C62A661976FBF9008A72D8 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
+		25C62A681976FC67008A72D8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = About/AboutViewController.h; sourceTree = "<group>"; };
+		25C62A691976FC67008A72D8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = About/AboutViewController.m; sourceTree = "<group>"; };
+		25C62A6B1976FCBA008A72D8 /* RemoveAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveAdsViewController.h; path = RemoveAds/RemoveAdsViewController.h; sourceTree = "<group>"; };
+		25C62A6C1976FCBA008A72D8 /* RemoveAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoveAdsViewController.m; path = RemoveAds/RemoveAdsViewController.m; sourceTree = "<group>"; };
+		25C62A6E1976FCE7008A72D8 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsViewController.h; path = Stats/StatsViewController.h; sourceTree = "<group>"; };
+		25C62A6F1976FCE7008A72D8 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsViewController.m; path = Stats/StatsViewController.m; sourceTree = "<group>"; };
+		25C62A711976FD1F008A72D8 /* StatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsModel.h; path = Stats/StatsModel.h; sourceTree = "<group>"; };
+		25C62A721976FD1F008A72D8 /* StatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsModel.m; path = Stats/StatsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +139,13 @@
 				25C62A291976E91A008A72D8 /* XYZAppDelegate.h */,
 				25C62A2A1976E91A008A72D8 /* XYZAppDelegate.m */,
 				25C62A2C1976E91A008A72D8 /* Main.storyboard */,
-				25C62A2F1976E91A008A72D8 /* XYZViewController.h */,
-				25C62A301976E91A008A72D8 /* XYZViewController.m */,
+				25C62A4F1976EF87008A72D8 /* Reveal */,
+				25C62A501976F056008A72D8 /* Question */,
+				25C62A551976F0D4008A72D8 /* Helpers */,
+				25C62A541976F0B4008A72D8 /* RemoveAds */,
+				25C62A531976F0A2008A72D8 /* About */,
+				25C62A521976F08B008A72D8 /* Menu */,
+				25C62A511976F074008A72D8 /* Stats */,
 				25C62A321976E91A008A72D8 /* Images.xcassets */,
 				25C62A211976E91A008A72D8 /* Supporting Files */,
 			);
@@ -150,6 +179,73 @@
 				25C62A421976E91A008A72D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C62A4F1976EF87008A72D8 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A591976F79E008A72D8 /* SWRevealViewController.h */,
+				25C62A5A1976F79E008A72D8 /* SWRevealViewController.m */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		25C62A501976F056008A72D8 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A5C1976FAF1008A72D8 /* QuestionViewController.h */,
+				25C62A5D1976FAF1008A72D8 /* QuestionViewController.m */,
+				25C62A5F1976FB7E008A72D8 /* QuestionModel.h */,
+				25C62A601976FB7E008A72D8 /* QuestionModel.m */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		25C62A511976F074008A72D8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A711976FD1F008A72D8 /* StatsModel.h */,
+				25C62A721976FD1F008A72D8 /* StatsModel.m */,
+				25C62A6E1976FCE7008A72D8 /* StatsViewController.h */,
+				25C62A6F1976FCE7008A72D8 /* StatsViewController.m */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+		25C62A521976F08B008A72D8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A651976FBF9008A72D8 /* MenuModel.h */,
+				25C62A661976FBF9008A72D8 /* MenuModel.m */,
+				25C62A621976FBD6008A72D8 /* MenuViewController.h */,
+				25C62A631976FBD6008A72D8 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		25C62A531976F0A2008A72D8 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A681976FC67008A72D8 /* AboutViewController.h */,
+				25C62A691976FC67008A72D8 /* AboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		25C62A541976F0B4008A72D8 /* RemoveAds */ = {
+			isa = PBXGroup;
+			children = (
+				25C62A6B1976FCBA008A72D8 /* RemoveAdsViewController.h */,
+				25C62A6C1976FCBA008A72D8 /* RemoveAdsViewController.m */,
+			);
+			name = RemoveAds;
+			sourceTree = "<group>";
+		};
+		25C62A551976F0D4008A72D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +346,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C62A311976E91A008A72D8 /* XYZViewController.m in Sources */,
+				25C62A611976FB7E008A72D8 /* QuestionModel.m in Sources */,
+				25C62A671976FBF9008A72D8 /* MenuModel.m in Sources */,
+				25C62A6A1976FC67008A72D8 /* AboutViewController.m in Sources */,
+				25C62A6D1976FCBA008A72D8 /* RemoveAdsViewController.m in Sources */,
+				25C62A641976FBD6008A72D8 /* MenuViewController.m in Sources */,
 				25C62A2B1976E91A008A72D8 /* XYZAppDelegate.m in Sources */,
+				25C62A701976FCE7008A72D8 /* StatsViewController.m in Sources */,
 				25C62A271976E91A008A72D8 /* main.m in Sources */,
+				25C62A731976FD1F008A72D8 /* StatsModel.m in Sources */,
+				25C62A5E1976FAF1008A72D8 /* QuestionViewController.m in Sources */,
+				25C62A5B1976F79E008A72D8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
